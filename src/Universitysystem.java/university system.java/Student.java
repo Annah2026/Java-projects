@@ -1,6 +1,7 @@
-Public concrete class person {
+public class student extends person {
+ Private String StudentID;
  public Student(String name, String studentID) {
-        super(name);
+        super(name,studentID);
         this.studentID = studentID;
     }
 
