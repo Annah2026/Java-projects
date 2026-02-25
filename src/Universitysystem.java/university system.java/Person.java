@@ -1,16 +1,16 @@
-public abstract class Person {
+public abstract class Person extends BaseEntity {
     Private String name;
     Private int id;
 
     Public person(String name, int id){
+        super(id);
         this.name = name;
-        this.id = id;
+        
     }
     Public String getname(){
         return name;
     }
-    Public int getid(){
-        return id;
+    Public abstract void login();
     }
     
 }

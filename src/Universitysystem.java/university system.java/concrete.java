@@ -1,4 +1,4 @@
-public  class concrete Course {
+public  class  Course extends BaseEntity {
    //encapsulate the private variables to protect the data
     private String courseName;
     private Lecturer instructor; 
