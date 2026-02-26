@@ -1,4 +1,4 @@
-My University System Project
+My University System Project(Note all my classes are under one folder the Universitysystem.java)
 This is my Java project for school. I built a system to manage students, lecturers, and courses. I used 7 classes to show how different parts of a university work together.
 What I did in this code:
 Inheritance: I made a BaseEntity class so that every student and course has an ID without me having to write it over and over.
